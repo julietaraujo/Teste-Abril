@@ -1,0 +1,101 @@
+/* ALL PAGES */
+@font-face{font-family:'dosisbold';src:url('../fonts/dosis.bold-webfont.woff2') format('woff2'), url('../fonts/dosis.bold-webfont.woff') format('woff');font-weight:normal;font-style:normal}
+@font-face {font-family:'dosis';src:url('../fonts/dosis.light-webfont.woff2') format('woff2'), url('../fonts/dosis.light-webfont.woff') format('woff');font-weight:normal;font-style:normal}
+html{overflow-x:hidden}
+body{background:#e6e6e6;font-family:'dosis'}
+h1,h2,h3,h4,h5,h6,strong{font-family:'dosis';font-weight:bold}
+.col-center{float:none;margin:0 auto}
+a{color:#3c6e82;font-weight:bold}
+a:hover{text-decoration:none;color:#203b46}
+li{list-style:none}
+.fa-2{font-size:2em !important}
+.center{margin:0 auto;float:none!important;display:block}
+.no-padl{padding-left:0}
+.no-padr{padding-right:0}
+.banner-topo{padding:15px 0}
+.navbar-menu{background:#ed1c24}
+.logo-mobile{display:none}
+ul.menu{margin-left:50px;margin-bottom:0;font-family:'dosisbold'}
+ul.menu li{line-height:90px;text-align:center;float:left;text-transform:uppercase;font-size:14px;letter-spacing:0.1px}
+ul.menu li:last-child{padding-right:0;border:none}
+ul.menu li a{color:#fff;display:block;padding:0 8px}
+ul.menu li:hover{background:#242424}
+ul.menu ul.sub-menu{position:absolute;visibility:hidden;background:#242424;float:none;z-index:9999;padding:0 15px}
+ul.menu ul.sub-menu li{line-height:45px;float:none;text-align:left}
+ul.menu ul.sub-menu li:hover a{color:#ed1c24}
+ul.menu li:hover ul.sub-menu{visibility:visible}
+.nav-menu-bottom{background:#242424;color:#fff;height:35px;margin-top:0}
+ul.menu-bottom{height:35px;padding-left:0}
+ul.menu-bottom li{line-height:35px;text-align:center;float:left;text-transform:uppercase;font-size:13px;letter-spacing:0.1px;font-family:'dosisbold'}
+ul.menu-bottom li:first-child{background:#ed1c24;padding:0 15px}
+ul.menu-bottom li a{color:#fff;padding:0 10px}
+ul.menu-bottom li a:hover{color:#ed1c24}
+ul.menu-bottom li:first-child a:hover{color:#242424}
+ul.menu-bottom li:first-child:after{content:"";display:inline-block;vertical-align:middle;margin-right:-15px;width:0;height:0;border-top:17px solid #242424;border-bottom:18px solid #242424;border-left:20px solid #ed1c24;margin-top:-3px}
+.main-banner{margin-top:10px}
+.main-news{margin:20px -5px}
+.main-banner .cols{padding:0}
+.main-news .cols{padding:0 5px}
+.main-news a{position:relative}
+.main-banner a:hover img,.main-news a:hover img{opacity:0.8}
+figure.mask{position:relative;margin-bottom:0}
+figure.mask:after{content: "";background: rgba(0,0,0,0.83);background: linear-gradient(to bottom,rgba(0,0,0,0.8) 0,rgba(0,0,0,0.5) 9%,rgba(0,0,0,0.1) 17%,rgba(0,0,0,0) 22%,rgba(0,0,0,0) 60%,rgba(0,0,0,0.35) 70%,rgba(0,0,0,0.42) 72%,rgba(0,0,0,0.44) 75%,rgba(0,0,0,0.61) 100%);height: 100%;width: 100%;position: absolute;top: 0;left: 0}
+.main-banner .desc,.main-news .desc{position:absolute;bottom:0;right:20px;text-transform:uppercase;color:#fff;letter-spacing:0.2px;z-index:10}
+.main-news .desc{left:20px;right:auto;bottom:10px}
+.main-banner .desc strong,.main-news .desc strong{text-indent:20px}
+.main-banner .desc strong:before,.main-news .desc strong:before{content:"";display:block;position:absolute;top:2px;width:14px;height:14px;background-color:#ed1c24;border-radius:2px;padding:5px}
+.main-banner .desc strong.special{background:#ed1c24;font-size:12px;text-align:left;text-indent:0;padding:0 10px;border-radius:2px}
+.main-banner .desc strong.special:before{display:none}
+.main-banner .desc h3{font-size:16px}
+@media screen and (max-width:400px){.main-banner .desc h2{font-size:16px}}
+.main-news .sub-desc{padding:0 15px}
+.main-news h4,.main-news a{font-family:'dosisbold';text-transform:uppercase}
+.main-news h4,.main-news p{margin-bottom:3px}
+.main-news a{color:#ed1c24}
+@media screen and (max-width:1199px){ul.menu{margin-left:0}}
+@media screen and (max-width:991px){
+.topbar{position:fixed;width:100%;z-index:9999}
+#navbar{background:#d41f1f;width:100%;padding:0;margin:0 0 0 -15px}
+#navbar ul.menu{clear:both;margin-top:0;padding-left:0;width:100%}
+ul.menu li{float:none;line-height:45px;border-bottom:solid 1px #c21c1c;text-align:left;padding:0 15px}
+ul.menu li a{padding:0 15px}
+ul.menu li a i{font-weight:bold;font-size:20px;float:right;line-height:45px}
+ul.menu li a.active i.fa-angle-up{display:block !important}
+ul.menu li a.active i.fa-angle-down{display:none}
+ul.menu ul.sub-menu{width:100%}
+ul.menu ul.sub-menu li{border-bottom:none}
+.logo-mobile{display:block}
+.navbar-header button{margin-right:30px}
+.navbar-fixed-top{background:#d41f1f;max-height:50px;top:40px}
+.navbar-fixed-top .header{margin-top:0;padding:0}
+.navbar-fixed-top .header img{width:50px;position:relative;top:15px;z-index:9999}
+.navbar-fixed-top .header ul.menu{margin-bottom:0}
+.navbar-fixed-top .header ul.menu li{line-height:0;padding-left:0;border-bottom:solid 1px #fff}
+.navbar-fixed-top .header ul.menu li a{line-height:20px;padding:10px 15px}
+.navbar-fixed-top .header ul.menu li:hover{background:#000}
+.navbar-header{float:none}
+.navbar-toggle{display:block}.
+.navbar-collapse{border-top: 1px solid transparent;box-shadow: inset 0 1px 0 rgba(255,255,255,0.1)}
+.navbar-collapse.collapse{display: none!important}
+.navbar-nav{float: none!important;margin: 7.5px -15px}
+.navbar-nav>li{float: none;}
+.navbar-nav>li>a{padding-top: 10px;padding-bottom: 10px}
+.navbar-text{float: none;margin: 15px 0}
+.navbar-collapse.collapse.in{display: block!important}
+.collapsing {overflow: hidden!important}
+.navbar-fixed-top .navbar-toggle{border-color:#fff}
+.icon-bar{background-color:#fff}
+.navbar-header button{padding:14px 10px;margin:0 15px 0;border-radius:0}
+.navbar-header button i{display:block;font-size:20px;color:#fff}
+.navbar-header button{background:#d41f1f}
+.navbar-header button.collapsed{background:none}
+.navbar-header button.collapsed i{display:none}
+.navbar-header button.collapsed span{display:block !important}
+.navbar-header button span{display:none !important}
+.header i.fa-search{font-size:20px;display:block !important;color:#fff;float:left;line-height:45px}
+}
+@media screen and (max-width:767px){
+.header{padding:0}
+#navbar{margin:0}
+.header i.fa-search{margin-left:15px}
+}
